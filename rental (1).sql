@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:5222
--- Generation Time: Oct 21, 2024 at 02:32 PM
+-- Generation Time: Oct 21, 2024 at 03:32 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -62,15 +62,15 @@ CREATE TABLE `tblvehicles` (
 --
 
 INSERT INTO `tblvehicles` (`id`, `VehiclesTitle`, `VehiclesBrand`, `VehiclesOverview`, `PricePerDay`, `FuelType`, `ModelYear`, `SeatingCapacity`, `Vimage1`, `Vimage2`, `Vimage3`, `Vimage4`, `Vimage5`, `AirConditioner`, `PowerDoorLocks`, `AntiLockBrakingSystem`, `BrakeAssist`, `PowerSteering`, `DriverAirbag`, `PassengerAirbag`, `PowerWindows`, `CDPlayer`, `CentralLocking`, `CrashSensor`, `LeatherSeats`, `RegDate`, `UpdationDate`) VALUES
-(10, 'Mahindra Scorpio', 1, 'Mahindra Scorpio Classic S11', 3000, 'Diesel', 2023, 7, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Scorpio\\main image.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Scorpio\\main image.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Scorpio.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Scorpio.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Scorpio.jpg', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, '2024-10-21 04:38:19', NULL),
-(12, 'Hyundai Creta', 2, 'Hyundai Creta', 2500, 'Diesel + Cng', 2022, 5, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Creta\\main.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Creta.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Creta.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Creta.jpg', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2024-10-21 06:08:03', NULL),
-(13, 'Ford Endeavour', 3, 'Ford Endeavour 4WD', 3500, 'Diesel', 2020, 7, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Endeavour\\main image.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Endeavour.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Endeavour.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Endeavour.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Endeavour.jpg', 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:11:51', NULL),
-(14, 'Toyota Innova', 4, 'Toyota Innova Crysta', 3500, 'Diesel', 2022, 7, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Innova.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Innova\\New folder.jpg\r\n', 'c:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Innova.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Innova.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Innova.jpg', 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:14:01', NULL),
-(15, 'Maruti Swift', 5, 'Maruti Suziki Swift', 1500, 'Petrol + Cng', 2024, 5, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Swift.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Swift.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Swift.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Swift.jpg', NULL, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:18:49', NULL),
-(16, 'Mahindra Thar', 1, 'Mahindra Thar 4*4', 3000, 'Petrol', 2022, 4, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Thar.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Thar.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Thar.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Thar.jpg', NULL, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:22:34', NULL),
-(17, 'Hyundai Verana', 2, 'Hyundai Verana', 2000, 'Petrol', 2023, 5, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\verna\\main.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\verna.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\verna.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\verna.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\verna.jpg', 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:25:29', NULL),
-(18, 'Volkswagen Virtus', 6, 'Volkswagen Virtus', 2000, 'Petrol', 2022, 5, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Virtus.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Virtus.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Virtus.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\Virtus.jpg', NULL, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 07:00:36', NULL),
-(19, 'Maruti WagonR', 5, 'Maruti Suzuki WagonR', 1000, 'Petrol + Cng', 2022, 5, 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\WagonR.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\WagonR.jpg', 'C:\\xampp\\htdocs\\TYBCA_PROJECT\\Car images\\WagonR.jpg', NULL, NULL, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, '2024-10-21 07:03:23', NULL);
+(1, 'Mahindra Scorpio', 1, 'Mahindra Scorpio Classic S11', 3000, 'Diesel', 2023, 7, 's1.jpg', 's3.jpg', 's4.jpg', 's2.jpg', 's5.jpg', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, '2024-10-21 04:38:19', NULL),
+(2, 'Hyundai Creta', 2, 'Hyundai Creta', 2500, 'Diesel + Cng', 2022, 5, 'c1.jpeg', 'c3.jpeg', 'c4.jpeg', 'c2.jpeg', NULL, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, '2024-10-21 06:08:03', NULL),
+(3, 'Ford Endeavour', 3, 'Ford Endeavour 4WD', 3500, 'Diesel', 2020, 7, 'e1.jpg', 'e3.jpg', 'e2.jpg', 'e5.jpg', 'e4.jpg', 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:11:51', NULL),
+(4, 'Toyota Innova', 4, 'Toyota Innova Crysta', 3500, 'Diesel', 2022, 7, 'i1.jpeg', 'i3.jpg', 'i4.jpg', 'i2.jpeg', 'i5.jpeg', 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:14:01', NULL),
+(5, 'Maruti Swift', 5, 'Maruti Suziki Swift', 1500, 'Petrol + Cng', 2024, 5, 's1.jpg', 's3.jpg', 's2.jpg', 's4.jpg', NULL, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:18:49', NULL),
+(6, 'Mahindra Thar', 1, 'Mahindra Thar 4*4', 3000, 'Petrol', 2022, 4, 't1.jpeg', 't2.jpeg', 't3.jpeg', 't4.jpeg', NULL, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:22:34', NULL),
+(7, 'Hyundai Verana', 2, 'Hyundai Verana', 2000, 'Petrol', 2023, 5, 'v1.jpg', 'v2.jpg', 'v3.jpg', 'v4.jpg', 'v5.jpg', 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 06:25:29', NULL),
+(8, 'Volkswagen Virtus', 6, 'Volkswagen Virtus', 2000, 'Petrol', 2022, 5, 'vi1.jpg', 'vi2.jpg', 'vi3.jpg', 'vi4.jpg', NULL, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, '2024-10-21 07:00:36', NULL),
+(9, 'Maruti WagonR', 5, 'Maruti Suzuki WagonR', 1000, 'Petrol + Cng', 2022, 5, 'w1.jpeg', 'w2.jpeg', 'w3.jpeg', NULL, NULL, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, '2024-10-21 07:03:23', NULL);
 
 --
 -- Indexes for dumped tables
